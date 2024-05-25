@@ -1,13 +1,46 @@
 /* HEADER */
 
 header {
-    background-color: grey;
+    background-color: rgb(21, 21, 21);
+    color: #fafafa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-shadow {
+    background-color: hsl(0, 100%, 45%);
+    /* Azul */
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-shadow:hover {
+    background-color: #b50000;
+}
+
+.search-box-rounded {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* MAIN */
 
 main {
     flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -20,7 +53,7 @@ main {
 
 }
 
-.oculto{
+.oculto {
     display: none !important;
 }
 
@@ -39,6 +72,28 @@ main {
 
 }
 
+.btn {
+    background-color: #4CAF50;
+    /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
 img {
 
     height: 300px;
@@ -54,7 +109,7 @@ img {
     border: 1px solid #ccc;
     box-shadow: 0px 2px 4px black;
     border-style: solid;
-    background-color: rgb(243, 101, 101);
+    background-color: rgb(247, 47, 47);
 
 }
 
@@ -62,7 +117,30 @@ img {
     border: 2px solid black;
     width: 100%;
     min-height: 100px;
+    background-color: #fafafa;
 }
+
+#botonComprar {
+    display: flex;
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#botonComprar:hover {
+    background-color: white; 
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
 
 .tarjetaProductoCarrito {
     display: flex;
@@ -77,6 +155,14 @@ h1 {
     text-align: center;
 }
 
+.fondo {
+    background-image: url(./img/jackboys.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* FOOTER */
 
 footer {
@@ -89,6 +175,7 @@ footer {
     text-decoration: underline;
     text-transform: none;
     flex-shrink: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -97,5 +184,3 @@ body {
     flex-direction: column;
     margin: 0;
 }
-
-
