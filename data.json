@@ -1,0 +1,74 @@
+[
+    {
+        "id": 2,
+        "nombre": "Air jordan 1",
+        "marca": "jordan",
+        "precio": 220,
+        "stock": 2,
+        "rutaImagen": "airman.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Jordan 6",
+        "marca": "jordan",
+        "precio": 226,
+        "stock": 5,
+        "rutaImagen": "jordannnnn.webp"
+    },
+    {
+        "id": 67,
+        "nombre": "Dunk",
+        "marca": "nike",
+        "precio": 500,
+        "stock": 11,
+        "rutaImagen": "airform.webp"
+    },
+    {
+        "id": 22,
+        "nombre": "Dunk BnW",
+        "marca": "nike",
+        "precio": 600,
+        "stock": 33,
+        "rutaImagen": "panda.webp"
+    },
+    {
+        "id": 29,
+        "nombre": "Travis low",
+        "marca": "jordan",
+        "precio": 700,
+        "stock": 45,
+        "rutaImagen": "travisssss.webp"
+    },
+    {
+        "id": 33,
+        "nombre": "Jordan 4 green",
+        "marca": "jordan",
+        "precio": 150,
+        "stock": 64,
+        "rutaImagen": "nabueno.webp"
+    },
+    {
+        "id": 12,
+        "nombre": "jordan 4 mid",
+        "marca": "jordan",
+        "precio": 200,
+        "stock": 23,
+        "rutaImagen": "lambo.webp"
+    },
+    {
+        "id": 66,
+        "nombre": "Jordan 5 high",
+        "marca": "jordan",
+        "precio": 700,
+        "stock": 12,
+        "rutaImagen": "jrdn.webp"
+    },
+    {
+        "id": 99,
+        "nombre": "Exotic Nike",
+        "marca": "nike",
+        "precio": 650,
+        "stock": 12,
+        "rutaImagen": "exotic.webp"
+    }
+]

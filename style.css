@@ -147,6 +147,10 @@ img {
     justify-content: space-between;
 }
 
+.unidades {
+    display: flex;
+}
+
 .busquedaYCarrito {
     text-align: right;
 }
@@ -162,6 +166,27 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.unidades {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unidades button:hover {
+    background-color: #0056b3;
+}
+
 
 /* FOOTER */
 
